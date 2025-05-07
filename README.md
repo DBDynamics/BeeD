@@ -1,5 +1,50 @@
 # Bee-D
 
+
+
+## About DBD
+DBD is a startup manufacturer of innovative matrix motion technologies, and as a manufacturer and developer of motor drives, controllers, and systems, DBD is designing its technology with emphasis on performance, efficiency, reliability, safety and simplicity.
+## About BeeS
+BeeS是DBD团队开发的总线式一体闭环步进伺服电机,目前主要分为BeeS28、BeeS42、BeeS57三个尺寸型号. 采用双电源接口,双RS485隔离通信接口以及正负限位接口.此外还集成了编码器,支持位置模式、速度模式、回零模式(有感/无感)、插补模式等多种运行模式. 
+## Technical Support
+If any questions, please feel free to contact us:
+如果有任何问题, 请联系我们:
+![](images/wechat.jpg)
+
+
+## 目录 
+- [产品介绍](#产品介绍)
+  - [性能参数](#性能参数)
+  - [产品细节](#产品细节)
+  - [机械尺寸](#机械尺寸)
+- [玩法介绍](#玩法介绍)
+  - [回零模式](#运行模式)
+  - [位置模式](#位置模式)
+  - [速度模式](#速度模式)
+  - [插补模式](#插补模式)  
+- [开发者](#开发者)
+    - [快速上手](#快速上手)
+      - [树莓派](#树莓派)
+      - [Windows](#windows-pc)
+      - [Linux](#linux-pc)
+      - [Mac OS](#mac-os)
+  - [高级玩法](#环境搭建)
+    - [USB485-Max](#pyv3s控制器)
+    - [PyV3s控制器](#pyv3s控制器)
+    - [PyH6Pro控制器](#pyh6s控制器)
+- [应用案例](#应用案例)
+  - [矩阵开发套件](#矩阵开发套件)
+  - [矩阵升降球](#矩阵升降球)
+  - [矩阵伸缩杆](#矩阵伸缩杆)
+  - [机械臂](#机械臂)
+  - [同步轮自由机](#同步轮自由机)
+- 
+## 产品介绍
+- [性能参数](#性能参数)
+- [产品细节](#产品细节)
+- [机械尺寸](#机械尺寸)
+
+
 ## 简介
 
 ![BeeD600](images/BeeD600.png)
@@ -39,38 +84,19 @@ Bee-D是DBD团队开发的一款超小型创客神器,尺寸只有50mm x 38mm, �
 
 ## 传感器接口
 
-### 两脚触碰开关
-
-![bee_sensor_button](images/bee_sensor_button.png)
-![bee_sensor_connection2](images/bee_sensor_connection2.png)
-
-### 三脚触碰开关
-
-![bee_sensor_3pin](images/bee_sensor_3pin.png)
-![bee_sensor_connection3](images/bee_sensor_connection3.png)
-
-### 光电传感器
-
-![bee_sensor_light](images/bee_sensor_light.png)
-![bee_sensor_npn](images/bee_sensor_npn.png)
-
-### 霍尔传感器
-
-![bee_sensor_hall](images/bee_sensor_hall.png)
-![bee_sensor_npn](images/bee_sensor_npn.png)
-
 ## 运行模式
 
 | 模式 | 描述 |
 |------|------|
 | 回零模式 | 进入回零模式后,根据设定的回零方向和目标速度开始运动,直到传感器触发,达到设置回零电平参数后停止运行,并且自动将运行模式恢复为进入回零模式前的运行模式. |
+| 位置模式 | 位置模式用于点位运动,可以设置加速时间,最大运行速度和目标位置 |
 | 插补模式 | 插补模式全称同步位置插补模式,用于实现最多32轴电机的同步插补运动.该模式通常用于3D打印机,写字机,画图机,雕刻机,点胶机等需要多轴联动,并且执行连续轨迹的设备. |
 
 ## 开发者
 
 ### BeeD Tuner for Windows
 
-[![tun_logo_white](images/tun_logo_white.png)](downloads/BeeD.zip)
+[点击下载](downloads/BeeD.zip)
 
 ### 通信协议
 
@@ -83,7 +109,3 @@ Bee-D是DBD团队开发的一款超小型创客神器,尺寸只有50mm x 38mm, �
 ## 相关视频
 
 [![视频](//player.bilibili.com/player.html?aid=993886569&bvid=BV1cx4y1A7iZ&cid=1066574485&p=1)](//player.bilibili.com/player.html?aid=993886569&bvid=BV1cx4y1A7iZ&cid=1066574485&p=1)
-
-## 关于DBD
-
-DBD是一家创新矩阵运动技术初创制造商,作为电机驱动器、控制器和系统的制造商和开发者,DBD在设计其技术时强调性能、效率、可靠性、安全性和简单性。
