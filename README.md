@@ -7,9 +7,10 @@ DBD is a startup manufacturer of innovative matrix motion technologies, and as a
 ## About BeeD
 Bee-D是DBD团队开发的一款超小型创客神器,尺寸只有50mm x 38mm, 它采用ARM Cortex-M0内核的32位处理器, 主频80MHz, 内置双路步进电机驱动,运行空间矢量控制算法及动态力矩调节算法, 可以完美控制2台42及以下型号小功率步进电机.
 ## Technical Support
-If any questions, please feel free to contact us:
-如果有任何问题, 请联系我们:
-![](images/wechat.jpg)
+- If any questions, please feel free to contact us:
+- 如果有任何问题, 请联系我们:
+
+![Wechat](images/wechat.jpg)
 
 
 ## 目录 
@@ -45,8 +46,6 @@ If any questions, please feel free to contact us:
   - [机械臂](#机械臂)
   - [同步轮自由机](#同步轮自由机)
 ----
-## 简介
-Bee-D是DBD团队开发的一款超小型创客神器,尺寸只有50mm x 38mm, 它采用ARM Cortex-M0内核的32位处理器, 主频80MHz, 内置双路步进电机驱动,运行空间矢量控制算法及动态力矩调节算法, 可以完美控制2台42及以下型号小功率步进电机.
 
 ## 性能参数
 
