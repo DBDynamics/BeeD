@@ -1,4 +1,4 @@
-# Bee-D
+# BeeD
 
 
 
@@ -104,4 +104,4 @@ Bee-D是DBD团队开发的一款超小型创客神器,尺寸只有50mm x 38mm, �
 
 ## 相关视频
 
-[![视频](//player.bilibili.com/player.html?aid=993886569&bvid=BV1cx4y1A7iZ&cid=1066574485&p=1)](//player.bilibili.com/player.html?aid=993886569&bvid=BV1cx4y1A7iZ&cid=1066574485&p=1)
+- [Bee-D单板双轴电机驱动-8轴联动展示](https://www.bilibili.com/video/BV1cx4y1A7iZ?vd_source=bd72913d34487300e80485725261daec)
