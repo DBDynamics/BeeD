@@ -8,8 +8,6 @@
 [![Platform](https://img.shields.io/badge/platform-ARM%20Cortex--M0-green.svg)]()
 [![Size](https://img.shields.io/badge/size-50mm%20x%2038mm-orange.svg)]()
 
-[English](#english) | [中文](#中文)
-
 </div>
 
 ---
@@ -30,19 +28,6 @@ Bee-D是DBD团队开发的一款**超小型创客神器**，尺寸仅有 **50mm 
 - 🎯 **精确控制**: 256细分，空间矢量控制算法
 - 🔌 **即插即用**: RS485总线通信，最高10Mbps
 - 🌡️ **工业级**: -10°C至+60°C工作温度
-
-## 📞 技术支持
-
-如果您有任何问题，请随时联系我们：
-
-<div align="center">
-
-![微信联系方式](images/wechat.jpg)
-
-**扫码添加微信获取技术支持**
-
-</div>
-
 
 ## 📋 目录
 
@@ -211,14 +196,17 @@ BeeD支持多种运行模式，满足不同应用场景的需求：
 
 <div align="center">
 
-## 🤝 加入我们
+## 📞 技术支持
 
-**感谢您对 BeeD 的关注！**
+如果您有任何问题，请随时联系我们：
 
-如果您在使用过程中遇到任何问题，或者有任何建议和想法，
+<div align="center">
 
-欢迎通过微信联系我们，我们将竭诚为您服务！
+![微信联系方式](images/wechat.jpg)
 
+**扫码添加微信获取技术支持**
+
+</div>
 ---
 
 *Made with ❤️ by DBD Team*
